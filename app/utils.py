@@ -17,7 +17,7 @@ def head():
 
     st.caption("""
         <p style='text-align: center'>
-        by   <span style="color:red"> Hrutvik </span>
+        by   <span style="color:red"> Hrutvik, Aryan and Arya </span>
         </p>
     """, unsafe_allow_html=True
                )
