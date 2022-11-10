@@ -5,18 +5,18 @@ import streamlit as st
 import json
 from Classifier import KNearestNeighbours
 from operator import itemgetter
-from streamlit_lottie import st_lottie
+# from streamlit_lottie import st_lottie
 
 st.set_page_config(
     page_title='Movie Recommender',
     # page_icon='assets/icon.png'
 )
 
-def load_lottifile(filename):
-    with open(filename) as f:
-        return json.load(f)
+# def load_lottifile(filename):
+#     with open(filename) as f:
+#         return json.load(f)
         
-lottie_movie = load_lottifile('assets/movie.json')
+# lottie_movie = load_lottifile('assets/movie.json')
 
 
 head()
@@ -120,4 +120,4 @@ if __name__ == '__main__':
     else:
         st.write('Select option')
 
-    st_lottie(animation_data=lottie_movie, speed=1, height=400,loop = True, key='Yeee')
+    # st_lottie(animation_data=lottie_movie, speed=1, height=400,loop = True, key='Yeee')
